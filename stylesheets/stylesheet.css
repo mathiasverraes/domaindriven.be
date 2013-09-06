@@ -337,6 +337,10 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+img.logo {
+  float: right;
+}
+
 /* #Media Queries
 ================================================== */
 
@@ -361,6 +365,13 @@ footer a:hover {
   .inner {
     width: 94%;
     margin: 0 auto;
+  }
+}
+
+/* Smartphones */
+@media screen and (max-width: 600px) {
+  img.logo {
+    float: none;
   }
 }
 
