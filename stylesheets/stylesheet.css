@@ -90,7 +90,7 @@ header h2 {
 }
 
 .inner {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -337,14 +337,22 @@ footer a:hover {
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
 
+img.logo {
+  float: right;
+}
+
 /* #Media Queries
 ================================================== */
 
-/* Smaller than standard 960 (devices and browsers) */
+/* Smaller than standard 960 (devices and browsers) * /
 @media only screen and (max-width: 959px) {}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .inner {
+    width: 96%;
+  }
+}
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
@@ -361,6 +369,13 @@ footer a:hover {
   .inner {
     width: 94%;
     margin: 0 auto;
+  }
+}
+
+/* Smartphones */
+@media screen and (max-width: 600px) {
+  img.logo {
+    float: none;
   }
 }
 
