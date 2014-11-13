@@ -64,48 +64,7 @@
             <!--End mc_embed_signup-->
 
             <h3>Upcoming Events</h3>
-
-            <h4><a id="MU11">#11: Modellathon</a></h4>
-            <ul>
-                <li>
-                    <a href="http://www.meetup.com/dddbelgium/events/218213342/">Info and RSVP at Meetup.com</a>
-                </li>
-                <li>
-                    Monday, December 8, 2014 (18:30-21:30) at AE in Leuven, Belgium
-                </li>
-            </ul>
-
-            <h4><a id="MU12">#12: Flux</a></h4>
-            <ul>
-                <li>
-                    "DDD in Web UI with Facebook Flux", by <a href="http://twitter.com/abdullin" target="_blank">Rinat Abdullin</a>
-                </li>
-                <li>
-                    <a href="http://www.meetup.com/dddbelgium/events/218600059/">Info and RSVP at Meetup.com</a>
-                </li>
-                <li>
-                    Tuesday, January 6, 2015 (18:30-21:30) at Combell in Gent, Belgium
-                </li>
-            </ul>
-
-            <h4>Global Day of #CQRSBeers</h4>
-            <ul>
-                <li>
-                    <a href="http://www.meetup.com/dddbelgium/events/217557012/">Find your city / add your city.</a>
-                </li>
-                <li>
-                    Thursday, January 29, 2015
-                </li>
-            </ul>
             
-            <h4>Future</h4>
-
-            <ul>
-                <li>We need you! <a href="/cfp">Call for Proposals</a></li>
-            </ul>
-
-            <h3>Past Events</h3>
-
             <h4><a id="MU10">#10: New Ways of Thinking</a></h4>
             <ul>
                 <li>
@@ -121,6 +80,14 @@
                     Monday, November 3, 2014 (18:30-21:30) at QFrame in Kontich, Belgium
                 </li>
             </ul>
+            
+            <h4>Future</h4>
+
+            <ul>
+                <li>We need you! <a href="/cfp">Call for Proposals</a></li>
+            </ul>
+
+            <h3>Past Events</h3>
 
             <h4><a id="MU9">Meetup #9: Fundamental CQRS & Event Sourcing</a></h4>
             <ul>
